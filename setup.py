@@ -48,7 +48,7 @@ setup(
         "cli-ui==0.17.2",
         "ez-yaml==1.2.0",
         "Jinja2==3.1.3",
-        "luddite==1.0.2",
+        "luddite==1.0.4",
         "MarkupSafe==2.1.5",
         "mergedeep==1.3.4",
         "packaging==24.0",
@@ -60,15 +60,15 @@ setup(
     ],
     extras_require={
         "test": [
-            "coverage==7.4.3",
+            "coverage==7.4.4",
             "cryptography==42.0.5",
             "deepdiff==6.7.1",
             "mypy==1.9.0",
             "mypy-extensions==1.0.0",
             "pre-commit==2.21.0",  # not really for tests, but for development
             "pytest==8.1.1",
-            "pytest-cov==4.1.0",
-            "pytest-rerunfailures==13.0",
+            "pytest-cov==5.0.0",
+            "pytest-rerunfailures==14.0",
             "xkcdpass==1.19.8",
         ],
         "docs": [
